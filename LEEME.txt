@@ -1,0 +1,14 @@
+PARA ABRIR TU SORPRESA
+
+1. Extrae el ZIP completo.
+2. Abre index.html en tu navegador.
+3. Pulsa «Descubre tu sorpresa» para entrar al jardín.
+
+Los cuatro primeros botones muestran una foto y una dedicatoria.
+El quinto muestra «Cómo te amo ❤️» y un mensaje sin foto.
+Puedes cerrar los mensajes con la X, con Escape o tocando fuera del cuadro.
+
+Para cambiar las frases, edita messages en amor.js.
+Mantén la carpeta assets junto a los archivos HTML. No requiere instalación ni conexión a internet.
+
+Los botones son compactos. Al recargar el jardín, se regresa al inicio.

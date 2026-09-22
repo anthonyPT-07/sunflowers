@@ -1,0 +1,70 @@
+*{box-sizing:border-box}html{color-scheme:dark}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#fff8e5}button,a{-webkit-tap-highlight-color:transparent}a{color:inherit}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid #ffe391;outline-offset:6px}.eyebrow{font-size:10px;letter-spacing:3px;color:#dbc68d;font-weight:700}h1,h2{font-family:Georgia,'Times New Roman',serif;font-weight:400}h1{letter-spacing:-1.5px}.welcome{min-height:100svh;display:grid;place-items:center;padding:36px 22px;background:radial-gradient(ellipse at 50% 35%,#243b2c 0%,#101e19 45%,#080f0d 90%);position:relative;overflow-x:hidden}.welcome-card{text-align:center;max-width:510px;position:relative;z-index:1}.welcome-flower{font-size:76px;margin:24px 0 20px;filter:drop-shadow(0 0 35px #ffcc4c40)}.small-note{color:#c5c9b8;font-size:14px}.welcome h1{font-size:clamp(46px,8vw,76px);line-height:1.04;margin:18px 0 24px}.intro{font-size:16px;line-height:1.8;color:#c7cec2;margin:0 auto 32px;max-width:410px}.enter{display:inline-flex;align-items:center;gap:32px;background:#f2cf78;color:#233326;text-decoration:none;padding:19px 25px;border-radius:40px;font-weight:700;box-shadow:0 8px 35px #f2cf7815;transition:background .2s,transform .2s}.enter:hover{background:#ffe2a1;transform:translateY(-3px)}.footer-love{color:#9da995;font-size:12px;margin-top:32px}.welcome-orbit{position:fixed;border:1px solid #d3b86412;border-radius:50%;width:75vw;height:75vw;pointer-events:none;top:50%;left:50%;transform:translate(-50%,-50%)}.orbit-two{width:92vw;height:92vw}.garden{perspective:none;min-height:640px;height:100svh;position:relative;overflow:hidden}.garden .night{background-image:radial-gradient(ellipse at 50% 65%,#203423 0%,#0c1b15 42%,#030a08 90%)}.garden .flowers{position:absolute;bottom:3%;left:50%;transform:scale(.59);pointer-events:none}.back{position:absolute;top:25px;left:30px;z-index:4;font-size:12px;color:#c2c9b6;text-decoration:none}.garden-title{position:absolute;top:65px;left:16px;right:16px;text-align:center;z-index:3}.garden-title h1{font-size:clamp(30px,4vw,49px);margin:14px 0 12px}.garden-title p{font-size:14px;color:#b3c0ad;margin:0}.memories{position:absolute;inset:0;z-index:4;pointer-events:none}.memory{pointer-events:auto;position:absolute;min-width:180px;padding:17px 23px;border:1px solid #e7cf854a;border-radius:20px;color:#f9e7b9;background:#14251ee8;box-shadow:0 0 26px #efc76608;transition:background .2s,box-shadow .2s;transform:translate(-50%,-50%);font-size:14px}.memory span{display:block;font-size:11px;letter-spacing:2px;color:#e7c87c;margin-bottom:10px}.memory:hover{background:#304232;box-shadow:0 0 28px #efc76625}.m1{left:23%;top:40%}.m2{left:77%;top:40%}.m3{left:20%;top:68%}.m4{left:80%;top:68%}.m5{left:50%;top:88%;background:#eccc83;color:#273624;border-color:#eccc83;font-weight:700;min-width:190px}.m5:hover{background:#ffe6a8}.garden-note{position:absolute;bottom:20px;text-align:center;width:100%;z-index:3;color:#a3b09c;font-size:11px;letter-spacing:1px}dialog{padding:0;border:1px solid #d9c48950;border-radius:25px;color:#fdf2d8;background:#14231c;width:min(760px,calc(100% - 32px));max-height:88svh;margin:auto;box-shadow:0 30px 100px #0009}dialog::backdrop{background:#020906cf;backdrop-filter:blur(8px)}.modal-inner{display:flex;align-items:stretch}.modal-inner img{width:46%;max-height:75svh;object-fit:contain;background:#0a120e}.modal-inner img[hidden]{display:none}.modal-copy{flex:1;align-self:center;padding:58px 35px 40px;text-align:center}.modal-copy h2{font-size:34px;line-height:1.15;margin:23px 0}.modal-copy p{font-size:16px;line-height:1.85;color:#d2d8c9}.signature{display:block;font-family:Georgia,serif;font-style:italic;color:#d7bd7a;margin-top:28px;font-size:15px}.close-modal{position:absolute;right:12px;top:12px;width:38px;height:38px;border:1px solid #ffffff30;border-radius:50%;background:#132019ec;color:#fff;font-size:26px;z-index:1}.text-only{max-width:540px}.text-only .modal-copy{padding:65px 42px}.text-only h2{font-size:43px}@media(max-width:650px){.welcome-orbit{width:125vw;height:125vw}.orbit-two{width:170vw;height:170vw}.back{left:18px;top:18px}.garden-title{top:65px}.garden-title .eyebrow{font-size:9px;letter-spacing:2px}.garden-title p{max-width:280px;margin:auto;line-height:1.6;font-size:12px}.garden .flowers{bottom:24%;transform:scale(.77)}.memory{min-width:0;width:143px;padding:14px 9px;font-size:12px;border-radius:16px}.m1{left:25%;top:35%}.m2{left:75%;top:35%}.m3{left:24%;top:73%}.m4{left:76%;top:73%}.m5{width:190px;top:88%}.modal-inner{display:block}.modal-inner img{width:100%;height:36svh;max-height:none}.modal-copy{padding:27px 25px}.modal-copy h2{font-size:28px;margin:14px 0}.modal-copy p{font-size:14px;line-height:1.7}.signature{margin-top:18px}.garden-note{font-size:10px;letter-spacing:0}.text-only .modal-copy{padding:60px 25px}.text-only h2{font-size:35px}}@media(max-height:640px){.garden{overflow-y:auto}.garden-title{top:48px}.garden-title h1{font-size:30px;margin:10px 0}.garden .night{position:absolute}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition:none!important}}
+
+/* Detalles románticos: rosa, champán y pequeñas luces. */
+.memory{
+  width:218px;min-width:0;padding:19px 20px 18px;
+  border:1px solid #f3c5ba99;border-radius:28px 12px 28px 12px;
+  background:linear-gradient(135deg,#653744f5,#392a36f5 65%,#49352df5);
+  color:#fff0df;font-family:Georgia,'Times New Roman',serif;font-size:16px;
+  box-shadow:inset 0 1px 0 #fff0dc35,0 10px 28px #0004,0 0 24px #e994a518;
+  isolation:isolate;transition:background .3s,box-shadow .3s,border-color .3s,scale .3s;
+}
+.memory::before{
+  content:'';position:absolute;inset:5px;border:1px solid #f6d3ba28;
+  border-radius:23px 8px 23px 8px;pointer-events:none;
+}
+.memory::after{
+  content:'✧';position:absolute;right:13px;top:9px;color:#ffe4b4;font-size:17px;
+  pointer-events:none;animation:love-twinkle 3s ease-in-out infinite;
+}
+.memory .memory-icon{
+  display:grid;place-items:center;width:38px;height:38px;margin:0 auto 10px;
+  border:1px solid #ffd9c167;border-radius:50%;letter-spacing:0;font-size:21px;
+  color:#ffd1d7;background:linear-gradient(145deg,#ffd9bf22,#ffabc40c);
+  box-shadow:0 0 18px #ef99b025,inset 0 1px 0 #ffedd529;
+}
+.memory .memory-hint{
+  display:block;margin:8px 0 0;color:#e6bdc1;font-family:Arial,Helvetica,sans-serif;
+  font-size:10px;font-weight:400;letter-spacing:1px;
+}
+.memory:hover,.memory:focus-visible{
+  background:linear-gradient(135deg,#824555,#4e3245 70%,#644936);
+  border-color:#ffe0c1;box-shadow:inset 0 1px 0 #fff0dc50,0 14px 34px #0005,0 0 32px #f1a1b644;
+  scale:1.045;
+}
+.memory:active{scale:.98}
+.m2::after{animation-delay:.7s}.m3::after{animation-delay:1.4s}.m4::after{animation-delay:2.1s}
+.memory.m5{
+  width:232px;padding:16px 22px;border-radius:999px;border-color:#ffe1c6;
+  color:#542537;background:linear-gradient(115deg,#ffe2b3,#ffc8c6 50%,#efa8ba);
+  font-size:20px;font-style:italic;box-shadow:inset 0 2px 0 #fff4dc88,0 8px 30px #e79baf40;
+}
+.memory.m5::before{border-radius:999px;border-color:#fff5e588}
+.memory.m5::after{content:'♥';font-size:13px;right:18px;top:12px;color:#a4405b}
+.memory.m5 .memory-hint{color:#753e50;font-size:10px;letter-spacing:1.4px;font-style:normal;margin-top:6px}
+.memory.m5:hover{background:linear-gradient(115deg,#ffeccf,#ffdad8 50%,#ffbdce);box-shadow:0 10px 36px #f2a7bc66}
+.enter{
+  position:relative;border:1px solid #ffe2c2;background:linear-gradient(115deg,#ffe0ac,#ffc4cb);
+  color:#5b2c3a;box-shadow:inset 0 1px 0 #fff6e899,0 8px 32px #e8a2a52b;
+}
+.enter:hover{background:linear-gradient(115deg,#ffebcc,#ffd7df);box-shadow:0 12px 35px #efa7b140}
+.enter span{color:#a6405d;font-size:22px;animation:love-twinkle 3s ease-in-out infinite}
+@keyframes love-twinkle{0%,100%{opacity:.5}50%{opacity:1}}
+@media(max-width:650px){
+  .memory{width:min(43vw,180px);padding:13px 8px 12px;font-size:13px;border-radius:23px 10px 23px 10px}
+  .memory::before{border-radius:18px 6px 18px 6px}
+  .memory .memory-icon{width:30px;height:30px;font-size:17px;margin-bottom:7px}
+  .memory .memory-hint{font-size:9px;letter-spacing:.4px;margin-top:6px}
+  .memory.m5{width:218px;font-size:19px;padding:13px 20px}
+}
+@media(prefers-reduced-motion:reduce){.memory::after,.enter span{animation:none}.memory{transition:none}}
+
+/* Versión compacta, conservando los detalles románticos. */
+.memory{width:auto;min-width:0;max-width:190px;padding:12px 17px;font-size:13px;line-height:1.4;border-radius:22px 9px 22px 9px;white-space:nowrap}
+.memory::before{inset:4px;border-radius:18px 6px 18px 6px}
+.memory::after{right:7px;top:3px;font-size:11px}
+.memory .memory-icon{display:inline-block;width:auto;height:auto;margin:0 5px 0 0;border:0;background:none;box-shadow:none;font-size:15px;vertical-align:middle}
+.memory .memory-hint{display:none}
+.memory.m5{width:auto;min-width:0;padding:12px 23px;font-size:17px}
+.memory.m5::after{font-size:9px;right:10px;top:6px}
+@media(max-width:650px){.memory{max-width:46vw;padding:11px 10px;font-size:11px}.memory .memory-icon{font-size:12px;margin-right:3px}.memory.m5{width:auto;padding:12px 21px;font-size:15px}}
